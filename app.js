@@ -22,7 +22,7 @@ function actualizarLista() {
 
 function sortearAmigo() {
     if (nombreAmigos.length === 0) {
-        alert("La lista está vacía, agregue al menos un nombre.");
+        alert("La caja está vacía, agregue al menos un nombre.");
         return;
     }
 
@@ -31,4 +31,5 @@ function sortearAmigo() {
 
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = `El amigo secreto es: ${ganador}.`;
+
 }
